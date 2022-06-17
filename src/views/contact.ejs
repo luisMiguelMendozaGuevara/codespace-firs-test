@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("partials/head") %>
+        <title>
+            <%= title %>
+        </title>
+</head>
+<body>
+    <%- include("partials/navigation") %>
+
+        <div class="container vh-100 cotainer d-flex justify-content-center align-items-center">
+            <div class="card bg-dark text-white text-center">
+
+                <div class="card-header">
+                    <h1>Contact me</h1>
+                </div>
+
+                <div class="car-body text-star">
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Email address" class="form-control">
+                        </div> 
+                        <div class="mb-3">
+
+                            <label for="email">Message</label>
+                            <textarea name="email" rows="3"placeholder="Write the message"class="form-control" ></textarea>
+                        </div> 
+                        
+
+
+
+                        <button class="btn btn-primary">Save</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <%- include("partials/footer") %>
+</body>
+
+</html>
