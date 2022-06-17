@@ -19,5 +19,5 @@ app.use(express.static(join(__dirname, 'public')));
 
 
 
-app.listen(3000)
-console.log("server listeninng ",3000)
+app.listen(process.env.PORT || 3000)
+console.log("server listeninng ", process.env.PORT || 3000)
